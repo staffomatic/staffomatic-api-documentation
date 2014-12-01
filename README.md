@@ -1,7 +1,7 @@
 The New STAFFOMATIC API
 =======================
 
-The all-new STaffomatic has an all-new API. This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication.
+The all-new STAFFOMATIC has an all-new API. This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication.
 
 STAFFOMATIC vs. EASYPEP
 -----------------------
