@@ -74,7 +74,7 @@ You always need to specify the `do` parameter to execute the application state f
 ```json
 {
   "user_id": 493,
-  "do": 'apply'
+  "do": "apply"
 }
 ```
 
@@ -107,7 +107,7 @@ if you want to change the `state` of an application, you can use following actio
 
 ```json
 {
-  "do": 'revert'
+  "do": "revert"
 }
 ```
 

@@ -69,7 +69,7 @@ Create shift
   "open_end": false
   "department_id": 39164
   "desired_coverage": 2
-  "note": ''
+  "note": ""
 }
 ```
 
@@ -83,7 +83,7 @@ Update shift
 
 ```json
 {
-  "note": 'sunshine is coming, don not forget your suncream!'
+  "note": "sunshine is coming, don not forget your suncream!"
 }
 ```
 

@@ -123,7 +123,7 @@ Approve absence
 
 ```json
 {
-  "do": 'approve'
+  "do": "approve"
 }
 ```
 
@@ -136,7 +136,7 @@ Decline absence
 
 ```json
 {
-  "do": 'decline'
+  "do": "decline"
 }
 ```
 

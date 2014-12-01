@@ -87,9 +87,9 @@ Invite user
 
 ```json
 {
-  "email": 'admin+withinvitation@easypep.de',
+  "email": "admin+withinvitation@easypep.de",
   "department_ids": [39164, 39165],
-  "do": 'send_invitation'
+  "do": "send_invitation"
 }
 ```
 
@@ -149,7 +149,7 @@ Lock user
 
 ```json
 {
-  "do": 'lock'
+  "do": "lock"
 }
 ```
 
@@ -160,7 +160,7 @@ Unlock user
 
 ```json
 {
-  "do": 'unlock'
+  "do": "unlock"
 }
 ```
 

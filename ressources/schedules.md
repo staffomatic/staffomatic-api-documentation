@@ -128,8 +128,8 @@ Publish schedule
 
 ```json
 {
-  "do": 'publish',
-  "message": 'a new schedule is available!',
+  "do": "publish",
+  "message": "a new schedule is available!",
   "deliver_emails": true
 }
 ```
@@ -143,8 +143,8 @@ Republish schedule
 
 ```json
 {
-  "do": 'republish',
-  "message": 'a new schedule is available!',
+  "do": "republish",
+  "message": "a new schedule is available!",
   "deliver_emails": true
 }
 ```
