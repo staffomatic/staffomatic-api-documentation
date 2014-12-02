@@ -16,7 +16,6 @@ Get absence types
     "name": "Urlaub",
     "color": "d9be50",
     "user_selectable": true,
-    "account_id": 159,
     "location_id": 64,
     "include_weekends": true
   }
@@ -37,7 +36,6 @@ Get absence type
   "name": "Urlaub",
   "color": "d9be50",
   "user_selectable": true,
-  "account_id": 159,
   "location_id": 64,
   "include_weekends": true
 }
