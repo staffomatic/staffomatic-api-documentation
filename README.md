@@ -81,8 +81,10 @@ API ready for use
 * [applications](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/applications.md)
 * [departments](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/departments.md)
 * [locations](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/locations.md)
+* [news_items](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/news_items.md)
 * [schedules](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/schedules.md)
 * [shifts](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/shifts.md)
+* [special_days](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/special_days.md)
 * [users](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/users.md)
 
 API libraries
