@@ -12,12 +12,12 @@ STAFFOMATIC vs. EASYPEP
 Making a request
 ----------------
 
-All URLs start with `http://api.easypepapp.com/v3/demo` or `http://api.staffomaticapp.com/v3/demo`. SSL only. The path is postfix with the API version and account subdomain. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
+All URLs start with `https://api.easypepapp.com/v3/demo` or `https://api.staffomaticapp.com/v3/demo`. SSL only. The path is postfix with the API version and account subdomain. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
-To make a request for all the locations on your account, you'd append the locations index path to the base url to form something like `http://api.staffomaticapp.com/v3/demo/locations.json`. In curl, that looks like:
+To make a request for all the locations on your account, you'd append the locations index path to the base url to form something like `https://api.staffomaticapp.com/v3/demo/locations.json`. In curl, that looks like:
 
 ```shell
-curl -u email:password http://api.staffomaticapp.com/v3/demo/locations.json
+curl -u email:password https://api.staffomaticapp.com/v3/demo/locations.json
 ```
 
 
@@ -27,7 +27,7 @@ To create something, it's the same deal except you also have to include the Cont
 curl -u email:password \
   -H 'Content-Type: application/json' \
   -d '{ "name": "My new project!" }' \
-  http://api.staffomaticapp.com/v3/demo/locations.json
+  https://api.staffomaticapp.com/v3/demo/locations.json
 ```
 
 That's all!
