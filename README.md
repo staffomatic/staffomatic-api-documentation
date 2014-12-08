@@ -70,7 +70,7 @@ If STAFFOMATIC is having trouble, you might see a 5xx error. 500 means that the 
 Rate limiting
 -----------------------
 
-You can perform up to 500 requests per 10 second period from the same IP address for the same account. If you exceed this limit, you'll get a 429 Too Many Requests response for subsequent requests. Check the Retry-After header to see how many seconds to wait before retrying the request.
+You can perform up to 500 requests per 10 second period from the same IP address. If you exceed this limit, you'll get a 429 Too Many Requests response for subsequent requests. Check the `X-RateLimit-Limit`, `X-RateLimit-Remaining` or `X-RateLimit-Reset` header for detailed informations.
 
 API ready for use
 -----------------------
