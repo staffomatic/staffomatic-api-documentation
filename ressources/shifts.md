@@ -9,23 +9,21 @@ Get shifts
 ```json
 [
   {
-    "created_at": "2014-12-01T16:22:17+01:00",
-    "updated_at": "2014-12-01T16:22:17+01:00",
-    "id": 3068100,
+    "created_at": "2015-02-17T17:58:45+01:00",
+    "updated_at": "2015-02-17T18:02:01+01:00",
+    "id": 3997004,
     "desired_coverage": 1,
     "note": "",
     "open_end": false,
     "full": false,
-    "accepted_applications_count": 0,
-    "applied_applications_count": 0,
-    "cancelled_application_count": 0,
     "location_id": 64,
-    "department_id": 39164,
-    "ends_at": "2015-07-20T16:00:00+02:00",
-    "starts_at": "2015-07-20T08:00:00+02:00",
-    "schedule_id": 83959,
-    "applicant_ids": [ ],
-    "assignment_ids": [ ]
+    "department_id": 47280,
+    "ends_at": "2015-02-16T16:00:00+01:00",
+    "starts_at": "2015-02-16T08:00:00+01:00",
+    "schedule_id": 107739,
+    "applied_user_ids": [ ],
+    "assigned_user_ids": [ ],
+    "cancelled_user_ids": [ ]
   }
 ]
 ```
@@ -37,23 +35,21 @@ Get shift
 
 ```json
 {
-    "created_at": "2014-12-01T16:22:17+01:00",
-    "updated_at": "2014-12-01T16:22:17+01:00",
-    "id": 3068100,
-    "desired_coverage": 1,
-    "note": "",
-    "open_end": false,
-    "full": false,
-    "accepted_applications_count": 0,
-    "applied_applications_count": 0,
-    "cancelled_application_count": 0,
-    "location_id": 64,
-    "department_id": 39164,
-    "ends_at": "2015-07-20T16:00:00+02:00",
-    "starts_at": "2015-07-20T08:00:00+02:00",
-    "schedule_id": 83959,
-    "applicant_ids": [ ],
-    "assignment_ids": [ ]
+  "created_at": "2015-02-17T17:58:45+01:00",
+  "updated_at": "2015-02-17T18:02:01+01:00",
+  "id": 3997004,
+  "desired_coverage": 1,
+  "note": "",
+  "open_end": false,
+  "full": false,
+  "location_id": 64,
+  "department_id": 47280,
+  "ends_at": "2015-02-16T16:00:00+01:00",
+  "starts_at": "2015-02-16T08:00:00+01:00",
+  "schedule_id": 107739,
+  "applied_user_ids": [ ],
+  "assigned_user_ids": [ ],
+  "cancelled_user_ids": [ ]
 }
 ```
 
