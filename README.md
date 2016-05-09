@@ -80,6 +80,7 @@ API ready for use
 * [account](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/account.md)
 * [applications](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/applications.md)
 * [departments](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/departments.md)
+* [form_fields](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/form_fields.md)
 * [locations](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/locations.md)
 * [news_items](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/news_items.md)
 * [schedules](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/schedules.md)
