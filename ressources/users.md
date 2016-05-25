@@ -36,7 +36,8 @@ Get users
     "department_ids": [39166],
     "locked_at": null,
     "invited_by_id": null,
-    "invitation_state": "accepted"
+    "invitation_state": "accepted",
+    "custom_id": "some-uniq-id"
   }
 ]
 ```
@@ -75,7 +76,8 @@ Get user
   "department_ids": [39166],
   "locked_at": null,
   "invited_by_id": null,
-  "invitation_state": "accepted"
+  "invitation_state": "accepted",
+  "custom_id": "some-uniq-id"
 }
 ```
 
@@ -138,7 +140,8 @@ Update user
   "phone_number_mobile": "231/48376616312",
   "phone_number_office": "231/48376616312",
   "commentable": "true",
-  "attachable": "true"
+  "attachable": "true",
+  "custom_id": "some-uniq-id"
 }
 ```
 
