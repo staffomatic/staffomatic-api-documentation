@@ -4,7 +4,9 @@ Users
 Get users
 ----------
 
-* `GET /locations/64/users.json` will return all users
+* `GET /locations/64/users.json` will return all users for specified location
+* `GET /users.json?state=active` will return all active users. Available states: active, all, pending, locked, unassigned
+* `GET /locations/64/users.json?department_ids%5B%5D=22612` will return all users for specified department
 
 ```json
 [

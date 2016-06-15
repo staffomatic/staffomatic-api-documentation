@@ -4,7 +4,13 @@ Absences
 Get absences
 ----------
 
-* `GET /locations/64/absences.json` will return all absences
+* `GET /locations/64/absences.json` will return all absences for specified location
+* `GET /absences.json?user_ids%5B%5D=493` will return absences for the specified user
+* `GET /absences.json?from=2016-03-31T22%3A00%3A00.000Z&until=2016-06-29T22%3A00%3A00.000Z` will return between datetime range
+* `GET /absences.json?absence_type_id%5B%5D=1` will return absences for the absence type
+* `GET /absences.json?paid=true` will return paid absences
+* `GET /absences.json?vacation=true` will return absences specified as vacation
+* `GET /absences.json?state%5B%5D=approved` will return absences for approved state
 
 ```json
 [

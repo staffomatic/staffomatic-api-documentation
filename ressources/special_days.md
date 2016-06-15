@@ -4,7 +4,8 @@ Special Days
 Get special day
 ----------
 
-* `GET /locations/64/special_days.json` will return all special_days
+* `GET /locations/64/special_days.json` will return all special_days for specified location
+* `GET /special_days.json?from=2016-07-01T00%3A00%3A00%2B02%3A00&until=2016-08-01T00%3A00%3A00%2B02%3A00` will return all special_days for specified datetime range
 
 ```json
 [

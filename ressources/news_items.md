@@ -4,7 +4,7 @@ News Items
 Get news items
 ----------
 
-* `GET /locations/64/news_items.json` will return all news_items
+* `GET /locations/64/news_items.json` will return all news_items for specified location
 
 ```json
 [

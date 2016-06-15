@@ -4,7 +4,13 @@ Applications
 Get applications
 ----------
 
-* `GET /shifts/3068101/applications.json` will return all applications
+* `GET /shifts/3068101/applications.json` will return all applications for specified shift
+* `GET /locations/64/applications.json` will return all applications for specified location
+* `GET /schedules/212625/applications.json` will return all applications for specified schedule
+* `GET /applications.json?user_ids%5B%5D=493` will return applications for the specified user
+* `GET /applications.json?from=2016-03-31T22%3A00%3A00.000Z&until=2016-06-29T22%3A00%3A00.000Z` will return applications between datetime range
+* `GET /applications.json?department_ids%5B%5D=1` will return applications for the department's
+* `GET /applications.json?state%5B%5D=accept` will return accept applications
 
 ```json
 [

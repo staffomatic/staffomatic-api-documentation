@@ -4,7 +4,10 @@ Shifts
 Get shifts
 ----------
 
-* `GET /schedules/1699/shifts.json` will return all shifts
+* `GET /schedules/1699/shifts.json` will return all shifts for specified schedule
+* `GET /locations/64/shifts.json` will return all shifts for specified location
+* `GET /shifts.json?from=2016-07-01T00%3A00%3A00%2B02%3A00&until=2016-08-01T00%3A00%3A00%2B02%3A00` will return all shifts for specified datetime range
+* `GET /shifts.json?department_ids%5B%5D=214` will return all shifts for specified departments
 
 ```json
 [

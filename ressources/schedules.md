@@ -4,7 +4,9 @@ Schedules
 Get schedules
 ----------
 
-* `GET /locations/64/schedules.json` will return all schedules
+* `GET /locations/64/schedules.json` will return all schedules for specified location
+* `GET /locations/64/schedules.json?from=2016-07-01T00%3A00%3A00%2B02%3A00&until=2016-08-01T00%3A00%3A00%2B02%3A00` will return all schedules for specified datetime range
+* `GET /locations/64/schedules.json?template=true` will return all schedules specified as template
 
 ```json
 [
