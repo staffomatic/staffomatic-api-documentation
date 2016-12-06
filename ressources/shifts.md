@@ -65,7 +65,7 @@ Create shift
 {
   "starts_at": "2015-07-20T08:00:00+02:00",
   "ends_at": "2015-07-20T16:00:00+02:00",
-  "schedule_id": 107739,
+  "location_id": 231,
   "open_end": false,
   "department_id": 39164,
   "desired_coverage": 2,
