@@ -67,8 +67,33 @@ Update department
 
 ```json
 {
-  "color": "c4a5c8",
-  "user_ids": [493, 1231]
+  "color": "c4a5c8"
+}
+```
+
+Add users to department
+--------------
+
+put 'add_users' => 'departments#add_users'
+put 'remove_users' => 'departments#remove_users'
+
+
+* `PUT /locations/64/departments/83959/add_users.json` will add users to the department.
+
+```json
+{
+  "user_ids": [1,2,3]
+}
+```
+
+Remove users from department
+--------------
+
+* `PUT /locations/64/departments/83959/remove_users.json` will remove users from the department.
+
+```json
+{
+  "user_ids": [1,2,3]
 }
 ```
 
