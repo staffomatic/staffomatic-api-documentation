@@ -26,6 +26,7 @@ To create something, it's the same deal except you also have to include the Cont
 ```shell
 curl -u email:password \
   -H 'Content-Type: application/json' \
+  -H 'User-Agent: MyApp (yourname@example.com)' \
   -d '{ "name": "My new project!" }' \
   https://api.staffomaticapp.com/v3/<your-account-subdomain>/locations.json
 ```
@@ -41,6 +42,19 @@ If you're making a public integration with STAFFOMATIC for others to enjoy, you 
 
 Read the authentication guide to get started.
 
+Identifying your application
+----------------------------
+
+You must include a `User-Agent` header with **both**:
+
+* The name of your application
+* your email address
+
+We use this information to get in touch if you're doing something wrong (so we can warn you before you're blacklisted) or something awesome (so we can congratulate you). Here are examples of acceptable `User-Agent` headers:
+
+* `User-Agent: Kalle's Example Integration (kalle@example.com)`
+
+If you don't include a `User-Agent` header, you'll get a `400 Bad Request` response.
 
 No XML, just JSON
 -----------------------
