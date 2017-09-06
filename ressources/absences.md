@@ -133,6 +133,15 @@ Approve absence
 }
 ```
 
+add the params `"handle_applications": "destroy"` if you want to destroy all assigned applications from the user in the absence timeframe:
+
+```json
+{
+  "do": "approve",
+  "handle_applications": "destroy"
+}
+```
+
 **Note:** You cannot update an absence after approving
 
 Decline absence
