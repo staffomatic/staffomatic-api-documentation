@@ -83,7 +83,7 @@ This will return `201 Created` with the current JSON representation of the work_
 Update work_timer
 --------------
 
-* `PUT /work_timers/3068107.json` will update the schedule from the parameters passed.
+* `PUT /work_timers/3068107.json` will update the work_timer from the parameters passed.
 
 ```json
 {
