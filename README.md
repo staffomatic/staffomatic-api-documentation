@@ -101,6 +101,7 @@ API ready for use
 * [shifts](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/shifts.md)
 * [special_days](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/special_days.md)
 * [users](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/users.md)
+* [work_timers](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/work_timers.md)
 
 API libraries
 -----------------------
