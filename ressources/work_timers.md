@@ -182,3 +182,7 @@ or pass along a specified ends_at time:
 }
 ```
 
+Breaks
+--------------
+
+To create a break for a specific work_timer, see [break_timers](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/break_timers.md)

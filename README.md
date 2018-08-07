@@ -93,6 +93,7 @@ API ready for use
 * [absences](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/absences.md)
 * [account](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/account.md)
 * [applications](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/applications.md)
+* [break_timers](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/break_timers.md)
 * [departments](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/departments.md)
 * [form_fields](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/form_fields.md)
 * [locations](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/locations.md)
