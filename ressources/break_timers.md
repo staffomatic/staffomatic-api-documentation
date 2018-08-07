@@ -7,7 +7,6 @@ Get break_timers
 ----------
 
 * `GET /break_timers.json` will return all break_timers
-* `GET /locations/64/break_timers.json` will return all break_timers for specified location
 * `GET /break_timers.json?from=2016-07-01T00%3A00%3A00%2B02%3A00&until=2016-08-01T00%3A00%3A00%2B02%3A00` will return all break_timers for specified datetime range
 * `GET /break_timers.json?user_ids%5B%5D=1` will return all break_timers for specified user id
 * `GET /work_timers/60844/break_timers.json` will return all break_timers for specified work_timer_id

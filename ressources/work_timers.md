@@ -5,7 +5,6 @@ Get work_timers
 ----------
 
 * `GET /work_timers.json` will return all work_timers
-* `GET /locations/64/work_timers.json` will return all work_timers for specified location
 * `GET /work_timers.json?from=2016-07-01T00%3A00%3A00%2B02%3A00&until=2016-08-01T00%3A00%3A00%2B02%3A00` will return all work_timers for specified datetime range
 * `GET /work_timers.json?user_ids%5B%5D=1` will return all work_timers for specified user id
 
