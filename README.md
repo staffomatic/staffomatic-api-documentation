@@ -95,6 +95,7 @@ API ready for use
 * [applications](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/applications.md)
 * [break_timers](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/break_timers.md)
 * [departments](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/departments.md)
+* [events](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/events.md)
 * [form_fields](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/form_fields.md)
 * [locations](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/locations.md)
 * [news_items](https://github.com/staffomatic/staffomatic-api-documentation/blob/master/ressources/news_items.md)
