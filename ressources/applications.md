@@ -121,5 +121,3 @@ Delete applications
 --------------
 
 * `DELETE /applications/3743342.json`
-
-**Note:** You can only delete `applied` applications.
