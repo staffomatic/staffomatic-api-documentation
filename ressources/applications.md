@@ -80,6 +80,7 @@ You always need to specify the `do` parameter to execute the application state f
 ```json
 {
   "user_id": 493,
+  "shift_id": 1231,
   "do": "apply"
 }
 ```
