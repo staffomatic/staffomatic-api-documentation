@@ -1,7 +1,7 @@
-The New STAFFOMATIC API
+The STAFFOMATIC API
 =======================
 
-The all-new STAFFOMATIC has an all-new API. This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication.
+This is a REST-style API that uses JSON for serialization and HTTP Auth for authentication.
 
 Making a request
 ----------------
