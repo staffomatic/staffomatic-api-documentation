@@ -14,7 +14,7 @@ Get account
   "id": 159,
   "name": "Research",
   "subdomain": "demo",
-  "domain": "easypep.de",
+  "domain": "staffomatic.com",
   "time_zone": "Europe/Berlin",
   "locations_count": 8,
   "active_users_count": 15,
@@ -36,6 +36,6 @@ Get account
   "customer_number": "6015949",
   "subscription_id": 56626,
   "customer_id": 402246,
-  "url": "https://demo.easypep.de"
+  "url": "https://demo.staffomatic.com"
 }
 ```

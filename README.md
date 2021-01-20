@@ -3,16 +3,10 @@ The New STAFFOMATIC API
 
 The all-new STAFFOMATIC has an all-new API. This is a REST-style API that uses JSON for serialization and OAuth 2 for authentication.
 
-STAFFOMATIC vs. EASYPEP
------------------------
-
-*EASYPEP* is our german speaking brand, *STAFFOMATIC* the international version. You can choose between those two  API enpoints `https://api.easypepapp.com` or `https://api.staffomaticapp.com`
-
-
 Making a request
 ----------------
 
-All URLs start with `https://api.easypepapp.com/v3/<your-account-subdomain>` or `https://api.staffomaticapp.com/v3/<your-account-subdomain>`. SSL only. The path is postfix with the API version and account subdomain. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
+All URLs start with `https://api.staffomaticapp.com/v3/<your-account-subdomain>` or `https://api.staffomaticapp.com/v3/<your-account-subdomain>`. SSL only. The path is postfix with the API version and account subdomain. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
 To make a request for all the locations on your account, you'd append the locations index path to the base url to form something like `https://api.staffomaticapp.com/v3/<your-account-subdomain>/locations.json`. In curl, that looks like:
 
